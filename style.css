@@ -42,19 +42,48 @@ body{
 p{
     padding: 5px;
 }
-h2{
-    text-align: center;
-}
-.img_jogadores{
-    height: 30px;
-    size: 20px;
-}
-#jogadores{
-     display: flex;
-    text-align: center;
-    justify-content: flex;
-    padding: 0px;
-}
-footer{
-    text-align: center;
-}
+.escalacao{
+        background-color: rgba(206, 1, 1, 0.692);
+
+        padding: 30px 20px 50px 20px;
+        text-align: center;
+        color: black;
+    }
+ 
+    
+    h2 {
+        margin-bottom: 40px;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .jogadores {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .jogador {
+        width: 120px;
+        text-align: center;
+    }
+
+    .jogador img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .jogador p {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+    }
+    footer{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
