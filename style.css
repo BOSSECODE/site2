@@ -42,3 +42,19 @@ body{
 p{
     padding: 5px;
 }
+h2{
+    text-align: center;
+}
+.img_jogadores{
+    height: 30px;
+    size: 20px;
+}
+#jogadores{
+     display: flex;
+    text-align: center;
+    justify-content: flex;
+    padding: 0px;
+}
+footer{
+    text-align: center;
+}
