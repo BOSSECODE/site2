@@ -15,8 +15,29 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: aliceblue;
+    background-color: rgba(206, 1, 1, 0.692);
 }
 #links{
     padding-right: 20px;
+}
+#noticias{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+.noticia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.548);
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.img_noticia{
+    height: 300px;
+    size: 200px;
+}
+p{
+    padding: 5px;
 }
